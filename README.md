@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather App
 
-## Getting Started
+![General preview](/public/img/readme/desktop_preview_dark.webp)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A city-based weather forecast web app built using Next.js and TypeScript. The app shows current weather conditions and a 5-day forecast with 3-hour intervals. Users can search for city weather, change language, switch themes, and toggle units of measurement (metric or imperial). Additionally, the website has an OpenGraph image for better link sharing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **City Search:** Search for weather conditions by city name.
+- **Current Weather:** View current weather conditions for the searched city.
+- **5-Day Forecast:** View a 5-day weather forecast with 3-hour intervals.
+- **Multi-language Support:** Change the app's language using the `next-intl` package.
+- **Theme Switching:** Switch between different themes using the `next-themes` package.
+- **Unit Switching:** Toggle between metric and imperial units of measurement.
+- **OpenGraph Image:** Enhanced link sharing with an OpenGraph image.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Internationalization:** [next-intl](https://github.com/amannn/next-intl)
+- **Theming:** [next-themes](https://github.com/pacocoursey/next-themes)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
