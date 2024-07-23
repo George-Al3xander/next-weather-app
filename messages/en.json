@@ -1,0 +1,91 @@
+{
+    "Header": {
+        "time": "Local time: {time}",
+        "placeholder": "Search for cities",
+        "search": "Search"
+    },
+    "ErrorPage": {
+        "title": "Oops, something went wrong",
+        "description": "{reason} Please try again later.",
+        "btn": "Try again"
+    },
+    "NotFoundPage": {
+        "title": "Lost in the clouds.",
+        "description": "The page you were looking for can't be found.",
+        "btn": "Return to the homepage"
+    },
+    "NoSearchResults": {
+        "title": "No Results Found For: {query}",
+        "description": "It seems we couldn't find any results for your search. This might be due to incorrect input or an unsupported language. Please try rewriting the city name in English and search again."
+    },
+    "CityMainCard": {
+        "last_updated": "Last updated on {time}",
+        "header_feels": "{desc}, feels like {temp}"
+    },
+    "FiveDayForecast": {
+        "title": "5 day / 3 hour forecast"
+    },
+    "NavBar": {
+        "weather": "Weather",
+        "cities": "Cities",
+        "settings": "Settings"
+    },
+    "SettingsPage": {
+        "title": "Settings",
+        "btn_label": "Open menu",
+        "theme": {
+            "title": "Theme variants",
+            "variants": {
+                "light": "Light",
+                "dark": "Dark",
+                "system": "System"
+            }
+        },
+        "units": {
+            "title": "Units of measurement",
+            "variants": {
+                "metric": "Metric",
+                "imperial": "Imperial"
+            }
+        },
+        "language": {
+            "title": "User interface language",
+            "variants": {
+                "en": "English",
+                "uk": "Українська"
+            }
+        }
+    },
+    "WeatherTerms": {
+        "rain": "Chance of rain: {percentage}%",
+        "today": "Today",
+        "forecast": {
+            "five_day": "5-day forecast",
+            "today": "today's forecast"
+        },
+        "air_cond": "air conditions",
+        "feels_like": "real feel",
+        "wind_speed": "wind",
+        "wind_gust": "wind gust",
+        "clouds": "Cloudiness",
+        "precipitation": "precipitation",
+        "humidity": "humidity",
+        "pressure": "pressure",
+        "rain_chance": "chance of rain",
+        "visibility": "visibility",
+        "today_forecast": "today's forecast",
+        "lat": "Latitude",
+        "lon": "Longitude",
+        "country": "Country Code",
+        "state": "State Name"
+    },
+    "units": {
+        "wind": "m/s",
+        "length": "m",
+        "pressure": "hPa",
+        "speed": {
+            "metric": "m/s",
+            "imperial": "mph"
+        }
+    }
+}
